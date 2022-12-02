@@ -38,7 +38,7 @@ const Addcontact = () => {
         console.log('i m inside submit', input);
 
         const { name, number, email, description, image, favorite } = input
-        const res = await fetch("http://localhost:8000/register", {
+        const res = await fetch("https://contact-app-ssk-api.onrender.com/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

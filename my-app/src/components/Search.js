@@ -26,7 +26,7 @@ const Search = () => {
 
         console.log('inside');
 
-        const response = await fetch(`http://localhost:8000/search/${name}`, {
+        const response = await fetch(`https://contact-app-ssk-api.onrender.com/search/${name}`, {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json",
@@ -57,7 +57,7 @@ const Search = () => {
 
         console.log('inside del', id);
 
-        const response = await fetch(`http://localhost:8000/delete/${id}`, {
+        const response = await fetch(`https://contact-app-ssk-api.onrender.com/delete/${id}`, {
             method: 'DELETE',
             headers: {
                 "Content-Type": "application/json",

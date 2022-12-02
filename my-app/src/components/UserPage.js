@@ -21,7 +21,7 @@ const UserPage = () => {
 
         console.log('inside');
 
-        const response = await fetch('http://localhost:8000/user', {
+        const response = await fetch('https://contact-app-ssk-api.onrender.com/user', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json",

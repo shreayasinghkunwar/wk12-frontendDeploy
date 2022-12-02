@@ -23,7 +23,7 @@ const ViewDetails = () => {
         console.log('id', id.id);
         const ids = id.id;
 
-        const response = await fetch(`http://localhost:8000/view/${ids}`, {
+        const response = await fetch(`https://contact-app-ssk-api.onrender.com/view/${ids}`, {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json",

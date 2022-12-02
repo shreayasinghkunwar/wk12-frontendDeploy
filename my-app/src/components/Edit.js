@@ -50,7 +50,7 @@ const Edit = () => {
         console.log('ids', ids);
 
         const { name, number, email, description, image, favorite } = input
-        const res = await fetch(`http://localhost:8000/edit/${ids}`, {
+        const res = await fetch(`https://contact-app-ssk-api.onrender.com/edit/${ids}`, {
             method: 'PATCH',
             headers: {
                 "Content-Type": "application/json"
@@ -75,7 +75,7 @@ const Edit = () => {
 
 
     const getContactData = async () => {
-        const response = await fetch(`http://localhost:8000/view/${ids}`, {
+        const response = await fetch(`https://contact-app-ssk-api.onrender.com/view/${ids}`, {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json",

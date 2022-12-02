@@ -28,7 +28,7 @@ const Login = () => {
         e.preventDefault();
         console.log("i m submit", userData);
         const { username, password } = userData
-        const res = await fetch("http://localhost:8000/login", {
+        const res = await fetch("https://contact-app-ssk-api.onrender.com/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
