@@ -1,0 +1,73 @@
+.navbar{
+  background-color: rgb(239 211 176 / 62%) !important;
+}
+
+
+.navbar-nav{
+  margin-right: 14rem;
+
+}
+
+.nav-item{
+  padding: 0.35rem;
+  margin: 0 10px 0 10px;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.nav-link{
+  color:  #382d09a8  !important;
+
+}
+
+.btn{
+  background-color: rgb(49 76 63) !important;
+  color: whitesmoke !important;
+  font-weight: 400;
+}
+
+.logo{
+  height: 50px;
+  width: 65px;
+}
+
+.container{
+  overflow: auto;
+}
+
+.action{
+  width: 450px;
+}
+
+.action-btn1{
+  background-color: rgb(255, 238, 0) ;
+}
+
+.action-btn2{
+  background-color: rgb(0, 142, 213) ;
+}
+
+.action-btn3{
+  background-color: rgb(239, 0, 0) ;
+}
+
+.view-btn{
+  margin-left: 5rem !important;
+}
+
+.form-container{
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.view-container{
+  width: 60%;
+  margin: auto;
+  padding: 3rem;
+  background-color:rgb(221 218 198 / 70%);
+  border: 1px solid rgb(117, 110, 110);
+  border-radius: 1rem;
+}
