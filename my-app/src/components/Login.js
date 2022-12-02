@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 
 
 
 const Login = () => {
-
+    const history = useNavigate();
     const [userData, setUserData] = useState({
         username: "",
         password: ""
@@ -47,7 +48,7 @@ const Login = () => {
 
             window.localStorage.setItem("token", response.data);
             window.alert("Login success.");
-            window.location.href = "/user";
+            history("/user");
 
 
         }
